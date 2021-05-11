@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "Backen for MovieMania",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/CharbelNaba/Cedrus_MovieMania/issues"
   },
-  "homepage": "https://github.com/CharbelNaba/Cedrus_MovieMania#readme"
+  "homepage": "https://github.com/CharbelNaba/Cedrus_MovieMania#readme",
+  "dependencies": {
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "sequelize": "^6.6.2"
+  }
 }
